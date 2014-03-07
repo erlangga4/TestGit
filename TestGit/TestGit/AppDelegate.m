@@ -9,10 +9,10 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
-
+@synthesize sessionManager;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-     
+    
     return YES;
 }
 

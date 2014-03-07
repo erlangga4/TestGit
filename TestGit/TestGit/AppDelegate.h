@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "AFURLSessionManager.h"
 
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@property ( strong , nonatomic) AFURLSessionManager * sessionManager;
 @property (strong, nonatomic) UIWindow *window;
 
 @end
