@@ -48,11 +48,40 @@
     NSString *documentsDirectory = [paths objectAtIndex:0];
     NSLog(@"saving file to %@", documentsDirectory);
     //make a file name to write the data to using the documents directory:
-    NSString *destpath = [documentsDirectory stringByAppendingPathComponent:@"test.html"];
-    NSLog(@"%@", destpath);
+    NSString * filename;
+    
+    //test.html
+    filename= @"test.html";
+    NSString *destpath = [documentsDirectory stringByAppendingPathComponent:filename]; NSLog(@"%@", destpath);
     NSString * sourcePath = [[NSBundle mainBundle] resourcePath];
-;
-    [[NSFileManager defaultManager] copyItemAtURL:    [[NSURL alloc] initFileURLWithPath:[sourcePath stringByAppendingPathComponent:@"test.html"] ]toURL:[[NSURL alloc] initFileURLWithPath:destpath] error:nil];
+
+    [[NSFileManager defaultManager] copyItemAtURL:    [[NSURL alloc] initFileURLWithPath:[sourcePath stringByAppendingPathComponent:filename]]toURL:[[NSURL alloc] initFileURLWithPath:destpath] error:nil];
+    
+    //bigbuck.mp4
+    filename= @"bigbuck.mp4";
+    destpath = [documentsDirectory stringByAppendingPathComponent:filename]; NSLog(@"%@", destpath);
+    [[NSFileManager defaultManager] copyItemAtURL: [[NSURL alloc] initFileURLWithPath:[sourcePath stringByAppendingPathComponent:filename] ]
+                                            toURL:[[NSURL alloc] initFileURLWithPath:destpath] error:nil];
+    //bigbuck.png
+    filename= @"bigbuck.png";
+    destpath = [documentsDirectory stringByAppendingPathComponent:filename]; NSLog(@"%@", destpath);
+    [[NSFileManager defaultManager] copyItemAtURL: [[NSURL alloc] initFileURLWithPath:[sourcePath stringByAppendingPathComponent:filename] ]
+                                            toURL:[[NSURL alloc] initFileURLWithPath:destpath] error:nil];
+    
+    //playerframework.min.css
+    filename= @"playerframework.min.css";
+    destpath = [documentsDirectory stringByAppendingPathComponent:filename]; NSLog(@"%@", destpath);
+    [[NSFileManager defaultManager] copyItemAtURL: [[NSURL alloc] initFileURLWithPath:[sourcePath stringByAppendingPathComponent:filename] ]
+                                            toURL:[[NSURL alloc] initFileURLWithPath:destpath] error:nil];
+    
+    //playerframework.min.js
+    filename= @"playerframework.min.js";
+    destpath = [documentsDirectory stringByAppendingPathComponent:filename]; NSLog(@"%@", destpath);
+    [[NSFileManager defaultManager] copyItemAtURL: [[NSURL alloc] initFileURLWithPath:[sourcePath stringByAppendingPathComponent:filename] ]
+                                            toURL:[[NSURL alloc] initFileURLWithPath:destpath] error:nil];
+    
+    
+     
     
 }
 
@@ -119,7 +148,25 @@
   //  [myWebView loadHTMLString:strHtml baseURL:nil];
 //[webView loadHTMLString:strHtml baseURL:nil];
 //[self.view addSubview:webView];
+    
 
+}
+-(IBAction ) loadLocal:(id) sender
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains (NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    
+    NSString * filename;
+    
+    filename= @"test.html";
+    NSString *localpath = [documentsDirectory stringByAppendingPathComponent:filename];
+    NSLog(@"localpath : %@", localpath);
+    NSURL *fileURL = [NSURL fileURLWithPath:localpath];
+    NSLog(@"file url : %@", fileURL);
+    
+    NSURLRequest * req = [[NSURLRequest alloc] initWithURL:fileURL];
+    [myWebView loadRequest:req];
+    
 }
 
 @end

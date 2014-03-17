@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57005D6218D73D8E00BC27B1 /* bigbuck.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 57005D5D18D73D8E00BC27B1 /* bigbuck.mp4 */; };
+		57005D6318D73D8E00BC27B1 /* bigbuck.png in Resources */ = {isa = PBXBuildFile; fileRef = 57005D5E18D73D8E00BC27B1 /* bigbuck.png */; };
+		57005D6418D73D8E00BC27B1 /* playerframework.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 57005D5F18D73D8E00BC27B1 /* playerframework.min.css */; };
+		57005D6618D73D8E00BC27B1 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 57005D6118D73D8E00BC27B1 /* test.html */; };
+		57005D6718D73DA700BC27B1 /* playerframework.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 57005D6018D73D8E00BC27B1 /* playerframework.min.js */; };
 		570FBB1E18C9966A00E58407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570FBB1D18C9966A00E58407 /* Foundation.framework */; };
 		570FBB2018C9966A00E58407 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570FBB1F18C9966A00E58407 /* CoreGraphics.framework */; };
 		570FBB2218C9966A00E58407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570FBB2118C9966A00E58407 /* UIKit.framework */; };
@@ -30,10 +35,6 @@
 		570FBB6B18C99AD900E58407 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 570FBB6018C99AD900E58407 /* AFURLRequestSerialization.m */; };
 		570FBB6C18C99AD900E58407 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 570FBB6218C99AD900E58407 /* AFURLResponseSerialization.m */; };
 		570FBB6D18C99AD900E58407 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 570FBB6418C99AD900E58407 /* AFURLSessionManager.m */; };
-		570FBBDF18C9AB9500E58407 /* playerframework.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 570FBBDC18C9AB9500E58407 /* playerframework.min.css */; };
-		570FBBE018C9AB9500E58407 /* playerframework.min.js in Sources */ = {isa = PBXBuildFile; fileRef = 570FBBDD18C9AB9500E58407 /* playerframework.min.js */; };
-		570FBBE118C9AB9500E58407 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 570FBBDE18C9AB9500E58407 /* test.html */; };
-		570FBBE218C9ABA300E58407 /* playerframework.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 570FBBDD18C9AB9500E58407 /* playerframework.min.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57005D5D18D73D8E00BC27B1 /* bigbuck.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bigbuck.mp4; sourceTree = "<group>"; };
+		57005D5E18D73D8E00BC27B1 /* bigbuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigbuck.png; sourceTree = "<group>"; };
+		57005D5F18D73D8E00BC27B1 /* playerframework.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = playerframework.min.css; sourceTree = "<group>"; };
+		57005D6018D73D8E00BC27B1 /* playerframework.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = playerframework.min.js; sourceTree = "<group>"; };
+		57005D6118D73D8E00BC27B1 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		570FBB1A18C9966A00E58407 /* TestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		570FBB1D18C9966A00E58407 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		570FBB1F18C9966A00E58407 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,9 +91,6 @@
 		570FBB6218C99AD900E58407 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		570FBB6318C99AD900E58407 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		570FBB6418C99AD900E58407 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		570FBBDC18C9AB9500E58407 /* playerframework.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = playerframework.min.css; sourceTree = "<group>"; };
-		570FBBDD18C9AB9500E58407 /* playerframework.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = playerframework.min.js; sourceTree = "<group>"; };
-		570FBBDE18C9AB9500E58407 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,9 +221,11 @@
 		570FBBDB18C9AB9500E58407 /* sample2 */ = {
 			isa = PBXGroup;
 			children = (
-				570FBBDC18C9AB9500E58407 /* playerframework.min.css */,
-				570FBBDD18C9AB9500E58407 /* playerframework.min.js */,
-				570FBBDE18C9AB9500E58407 /* test.html */,
+				57005D5D18D73D8E00BC27B1 /* bigbuck.mp4 */,
+				57005D5E18D73D8E00BC27B1 /* bigbuck.png */,
+				57005D5F18D73D8E00BC27B1 /* playerframework.min.css */,
+				57005D6018D73D8E00BC27B1 /* playerframework.min.js */,
+				57005D6118D73D8E00BC27B1 /* test.html */,
 			);
 			path = sample2;
 			sourceTree = "<group>";
@@ -300,12 +305,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				570FBBE218C9ABA300E58407 /* playerframework.min.js in Resources */,
+				57005D6718D73DA700BC27B1 /* playerframework.min.js in Resources */,
+				57005D6618D73D8E00BC27B1 /* test.html in Resources */,
 				570FBB4D18C9969400E58407 /* Main.storyboard in Resources */,
+				57005D6218D73D8E00BC27B1 /* bigbuck.mp4 in Resources */,
+				57005D6318D73D8E00BC27B1 /* bigbuck.png in Resources */,
+				57005D6418D73D8E00BC27B1 /* playerframework.min.css in Resources */,
 				570FBB2818C9966A00E58407 /* InfoPlist.strings in Resources */,
 				570FBB3018C9966A00E58407 /* Images.xcassets in Resources */,
-				570FBBE118C9AB9500E58407 /* test.html in Resources */,
-				570FBBDF18C9AB9500E58407 /* playerframework.min.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +331,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				570FBBE018C9AB9500E58407 /* playerframework.min.js in Sources */,
 				570FBB6518C99AD900E58407 /* AFHTTPRequestOperation.m in Sources */,
 				570FBB2E18C9966A00E58407 /* AppDelegate.m in Sources */,
 				570FBB6618C99AD900E58407 /* AFHTTPRequestOperationManager.m in Sources */,
@@ -539,6 +545,7 @@
 				570FBB4818C9966A00E58407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		570FBB4918C9966A00E58407 /* Build configuration list for PBXNativeTarget "TestGitTests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +554,7 @@
 				570FBB4B18C9966A00E58407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
